@@ -39,6 +39,15 @@
                                     <action selector="sliderDidSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="YHt-hK-XiI"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deG-ic-LBc">
+                                <rect key="frame" x="185" y="402" width="80" height="31"/>
+                                <state key="normal" title="Challenge">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="I1j-w0-maX" kind="presentation" id="LfY-6e-z9N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -50,6 +59,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uby-jc-Ltq">
+            <objects>
+                <viewController id="I1j-w0-maX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Keb-hn-Qun"/>
+                        <viewControllerLayoutGuide type="bottom" id="12L-R0-9dr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UiO-a8-Mui">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.35686548671419627" green="1" blue="0.40506622761306688" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jD2-U4-6hy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="136"/>
         </scene>
     </scenes>
 </document>
